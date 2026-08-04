@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-webapp",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest",
+    "build": "echo Build Complete",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "eslint": "^9.0.0"
+  }
+}
