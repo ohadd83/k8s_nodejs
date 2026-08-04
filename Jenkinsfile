@@ -10,12 +10,12 @@ pipeline {
 
     stages {
 
-        stage('Checkout') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/ohadd306/nodejs-webapp.git'
-            }
-        }
+//        stage('Checkout') {
+//            steps {
+//                git branch: 'main',
+//                    url: 'https://github.com/ohadd306/nodejs-webapp.git'
+//           }
+//        }
 
         stage('Install Dependencies') {
             steps {
